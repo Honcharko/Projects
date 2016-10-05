@@ -1,5 +1,5 @@
-  @import 'fonts';
-  //mobile version
+@import 'fonts';
+//mobile version
 @media (max-width: 479px) {
   .wrapper {
     width: 320px;
@@ -205,7 +205,7 @@
       top: -140px;
     }
   }
-  .content{
+  .content {
     &__blogs {
       margin-top: 27px;
       padding-left: 2px;
@@ -260,7 +260,7 @@
       font-size: 13.97px;
       font-family: 'Montserrat Bold', sans-serif;
     }
-    &__two__name{
+    &__two__name {
       display: block;
       padding-top: 0;
       letter-spacing: 1px;
@@ -268,7 +268,7 @@
       font-size: 13.97px;
       font-family: 'Montserrat Bold', sans-serif;
     }
-    &__three__name{
+    &__three__name {
       display: block;
       padding-top: 1px;
       letter-spacing: -0.5px;
@@ -276,7 +276,7 @@
       font-size: 13.97px;
       font-family: 'Montserrat Bold', sans-serif;
     }
-    &__three__desc{
+    &__three__desc {
       display: block;
       width: 227px;
       text-align: center;
@@ -286,7 +286,7 @@
       font-size: 13.97px;
       padding-left: 40px;
     }
-    &__two__desc{
+    &__two__desc {
       display: block;
       width: 217px;
       text-align: center;
@@ -354,7 +354,7 @@
       background-position: 179px 86px;
       width: 220px;
     }
-    &__four__name{
+    &__four__name {
       display: block;
       padding-top: 1px;
       letter-spacing: -0.5px;
@@ -362,7 +362,7 @@
       font-size: 13.97px;
       font-family: 'Montserrat Bold', sans-serif;
     }
-    &__four__desc{
+    &__four__desc {
       display: block;
       width: 199px;
       text-align: center;

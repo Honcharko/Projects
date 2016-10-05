@@ -1,27 +1,27 @@
 $(function () {
 
-        //slider
-        $('.bxslider').bxSlider({
-            auto: true,
-            minSlides: 1,
-            maxSlides: 1,
-            slideMargin: 10
-        });
+    //slider
+    $('.bxslider').bxSlider({
+        auto: true,
+        minSlides: 1,
+        maxSlides: 1,
+        slideMargin: 10
+    });
 
 
     //masonry + ajax
 
-    function box (){
+    function box() {
         var grid = $('.grid');
 
         grid.imagesLoaded(function () {
 
             grid.masonry({
 
-            itemSelector: '.grid__item',
+                itemSelector: '.grid__item',
                 columnWidth: 235,
                 gutter: 20
-        });
+            });
 
         });
     }
@@ -45,6 +45,7 @@ $(function () {
 
         });
     }
+
     find();
 
     $('.search__click').on('click', function (e) {

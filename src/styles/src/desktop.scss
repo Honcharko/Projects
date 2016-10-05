@@ -429,70 +429,70 @@
     margin-top: 98px;
     height: 940px;
 
-  &__main {
-    display: block;
-    width: 400px;
-    height: 56px;
-    font-family: 'Montserrat Bold', sans-serif;
-    font-size: 22.00px;
-    text-align: center;
-    padding-left: 270px;
-    letter-spacing: 1.5px;
-    line-height: 25px;
+    &__main {
+      display: block;
+      width: 400px;
+      height: 56px;
+      font-family: 'Montserrat Bold', sans-serif;
+      font-size: 22.00px;
+      text-align: center;
+      padding-left: 270px;
+      letter-spacing: 1.5px;
+      line-height: 25px;
+    }
   }
-}
-  .grid{
+  .grid {
     width: 100%;
 
-  &__img{
-    width: 100%;
-    margin-top: 4px;
-    height: 311px;
-    border-radius: 4px;
-  }
-  &__text{
-    width: 100%;
-    margin-top: -173px;
-    position: absolute;
-    color: #fff;
-    font-family: "Montserrat Bold", sans-serif;
-    font-size: 22px;
-    text-align: center;
-  }
-  &__item {
-    width: 298px;
-    margin-bottom: 20px;
-    margin-left: 1px;
-  }
-  &__item:nth-child(2){
-    width: 298px;
-    margin-left: 321px;
-    margin-top: -338px;
-  }
-  &__item:nth-child(3){
-    width: 298px;
-    margin-left: 641px;
-    margin-top: -338px;
-  }
-  &__item:nth-child(4){
-    width: 298px;
-    margin-top: -8px;
-  }
-  &__item:nth-child(5){
-    height: 310px;
-    width: 620px;
-    margin-left: 321px;
-    margin-top: -338px;
-  }
-  &__item:nth-child(6){
-    height: 310px;
-    width: 298px;
-    margin-left: 641px;
-  }
-  &__item:nth-child(7) {
-    width: 620px;
-    margin-top: -330px;
-  }
+    &__img {
+      width: 100%;
+      margin-top: 4px;
+      height: 311px;
+      border-radius: 4px;
+    }
+    &__text {
+      width: 100%;
+      margin-top: -173px;
+      position: absolute;
+      color: #fff;
+      font-family: "Montserrat Bold", sans-serif;
+      font-size: 22px;
+      text-align: center;
+    }
+    &__item {
+      width: 298px;
+      margin-bottom: 20px;
+      margin-left: 1px;
+    }
+    &__item:nth-child(2) {
+      width: 298px;
+      margin-left: 321px;
+      margin-top: -338px;
+    }
+    &__item:nth-child(3) {
+      width: 298px;
+      margin-left: 641px;
+      margin-top: -338px;
+    }
+    &__item:nth-child(4) {
+      width: 298px;
+      margin-top: -8px;
+    }
+    &__item:nth-child(5) {
+      height: 310px;
+      width: 620px;
+      margin-left: 321px;
+      margin-top: -338px;
+    }
+    &__item:nth-child(6) {
+      height: 310px;
+      width: 298px;
+      margin-left: 641px;
+    }
+    &__item:nth-child(7) {
+      width: 620px;
+      margin-top: -330px;
+    }
   }
   .search {
     @extend .holiday__main;
